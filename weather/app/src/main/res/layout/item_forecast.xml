@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Date"
+        android:textColor="#673AB7"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvWeather"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Weather"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <ImageView
+        android:id="@+id/tvIcon"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:contentDescription="icon"
+        android:scaleType="centerInside"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="Temperature"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="wind"
+        android:textColor="#673AB7"
+        android:textSize="10sp" />
+
+</LinearLayout>

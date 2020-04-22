@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#12673AB7"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="Name"
+        android:textColor="#673AB7"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/countryTextView"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="country"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/areaTextView"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="area"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/lonlatTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="lon-lat"
+        android:textColor="#673AB7"
+        android:textSize="14sp" />
+
+</LinearLayout>
