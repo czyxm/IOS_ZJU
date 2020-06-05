@@ -1,4 +1,4 @@
-<center>IOS-HW2 Weather App</center>
+# <center>IOS-HW2 Weather App</center>
 
 <div align=center> 
     姓名：陈锰 <br/>
