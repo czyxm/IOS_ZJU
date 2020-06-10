@@ -1,5 +1,4 @@
-<center>IOS-HW2 Weather App</center>
-
+# <center>IOS-HW3 AR简单应用</center>
 <div align=center> 
     姓名：陈锰 <br/>
     学号：3170105197 <br/> 
